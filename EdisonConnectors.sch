@@ -1,0 +1,695 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:metrix_parts
+LIBS:mogar_KiCAD
+LIBS:SparkFun
+LIBS:EdisonBlock_Template-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Edison Connectors"
+Date "2016-09-20"
+Rev "1"
+Comp "Good Measure Design, LLC."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1800 1650 1550 1650
+Wire Wire Line
+	1550 1650 1550 1200
+Wire Wire Line
+	1800 1450 1550 1450
+Connection ~ 1550 1450
+Wire Wire Line
+	1800 1550 1550 1550
+Connection ~ 1550 1550
+Wire Wire Line
+	1800 5250 1600 5250
+Wire Wire Line
+	1600 5250 1600 5950
+Wire Wire Line
+	1800 5350 1600 5350
+Connection ~ 1600 5350
+Wire Wire Line
+	1800 5450 1600 5450
+Connection ~ 1600 5450
+Wire Wire Line
+	1800 5550 1600 5550
+Connection ~ 1600 5550
+Wire Wire Line
+	1800 5650 1600 5650
+Connection ~ 1600 5650
+Wire Wire Line
+	1800 5750 1600 5750
+Connection ~ 1600 5750
+$Comp
+L EdisonConnector U1
+U 1 1 575843B2
+P 3000 3550
+F 0 "U1" H 2150 5800 60  0000 C CNN
+F 1 "EdisonConnector" H 2850 1150 60  0000 C CNN
+F 2 "mogar_modules_new:DF40HC(3.0)-70DS" H 3000 3950 60  0001 C CNN
+F 3 "" H 3000 3950 60  0000 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1850 1100 1850
+Wire Wire Line
+	1100 1550 1100 1950
+Wire Wire Line
+	1100 1950 1800 1950
+Connection ~ 1100 1850
+$Comp
+L GND #PWR4
+U 1 1 575843BD
+P 1600 5950
+F 0 "#PWR4" H 1600 5700 50  0001 C CNN
+F 1 "GND" H 1600 5800 50  0000 C CNN
+F 2 "" H 1600 5950 60  0000 C CNN
+F 3 "" H 1600 5950 60  0000 C CNN
+	1    1600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1450 4650 1450
+Wire Wire Line
+	4650 1550 4200 1550
+Wire Wire Line
+	4200 1650 4650 1650
+Wire Wire Line
+	4650 1950 4200 1950
+Wire Wire Line
+	4200 2050 4650 2050
+Wire Wire Line
+	4650 2150 4200 2150
+Wire Wire Line
+	4200 2250 4650 2250
+Wire Wire Line
+	4650 2350 4200 2350
+Wire Wire Line
+	4200 2450 4650 2450
+Wire Wire Line
+	4650 2550 4200 2550
+Wire Wire Line
+	4200 2650 4650 2650
+Wire Wire Line
+	4650 2950 4200 2950
+Wire Wire Line
+	4650 3050 4200 3050
+Wire Wire Line
+	4200 3150 4650 3150
+Wire Wire Line
+	4650 3250 4200 3250
+Wire Wire Line
+	4200 3550 4650 3550
+Wire Wire Line
+	4650 3650 4200 3650
+Wire Wire Line
+	4200 3750 4650 3750
+Wire Wire Line
+	4650 3850 4200 3850
+Wire Wire Line
+	4200 3950 4650 3950
+Wire Wire Line
+	4200 5350 4650 5350
+Wire Wire Line
+	4650 5250 4200 5250
+Wire Wire Line
+	4200 4950 4650 4950
+Wire Wire Line
+	4650 4850 4200 4850
+Wire Wire Line
+	4200 4750 4650 4750
+Wire Wire Line
+	4650 4650 4200 4650
+Wire Wire Line
+	4200 4350 4650 4350
+Wire Wire Line
+	4650 4250 4200 4250
+Wire Wire Line
+	4650 5650 4200 5650
+Wire Wire Line
+	4200 5750 4650 5750
+Wire Wire Line
+	1350 4750 1800 4750
+Wire Wire Line
+	1800 4850 1350 4850
+Wire Wire Line
+	1350 4950 1800 4950
+Wire Wire Line
+	1800 5050 1350 5050
+Wire Wire Line
+	1350 3750 1800 3750
+Wire Wire Line
+	1800 3850 1350 3850
+Wire Wire Line
+	1350 3950 1800 3950
+Wire Wire Line
+	1800 4050 1350 4050
+Wire Wire Line
+	1350 4150 1800 4150
+Wire Wire Line
+	1800 4250 1350 4250
+Wire Wire Line
+	1350 4350 1800 4350
+Wire Wire Line
+	1800 4450 1350 4450
+Wire Wire Line
+	1350 4550 1800 4550
+Wire Wire Line
+	1350 3050 1800 3050
+Wire Wire Line
+	1800 3150 1350 3150
+Wire Wire Line
+	1350 3250 1800 3250
+Wire Wire Line
+	1800 3350 1350 3350
+Wire Wire Line
+	1350 3450 1800 3450
+Wire Wire Line
+	1800 3550 1350 3550
+Wire Wire Line
+	1800 2350 1350 2350
+Wire Wire Line
+	1800 2550 1350 2550
+Wire Wire Line
+	1350 2650 1800 2650
+Wire Wire Line
+	1800 2850 1350 2850
+$Comp
+L +1V8 #PWR1
+U 1 1 57598D9F
+P 850 2050
+F 0 "#PWR1" H 850 1900 50  0001 C CNN
+F 1 "+1V8" H 850 2190 50  0000 C CNN
+F 2 "" H 850 2050 60  0000 C CNN
+F 3 "" H 850 2050 60  0000 C CNN
+	1    850  2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2050 850  2150
+Wire Wire Line
+	850  2150 1800 2150
+Wire Wire Line
+	1450 1750 1800 1750
+$Comp
+L +3.3V #PWR2
+U 1 1 57599078
+P 1100 1550
+F 0 "#PWR2" H 1100 1400 50  0001 C CNN
+F 1 "+3.3V" H 1100 1690 50  0000 C CNN
+F 2 "" H 1100 1550 60  0000 C CNN
+F 3 "" H 1100 1550 60  0000 C CNN
+	1    1100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR3
+U 1 1 575990AB
+P 1550 1200
+F 0 "#PWR3" H 1550 1050 50  0001 C CNN
+F 1 "VCC" H 1550 1350 50  0000 C CNN
+F 2 "" H 1550 1200 60  0000 C CNN
+F 3 "" H 1550 1200 60  0000 C CNN
+	1    1550 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1650 7050 1650
+Wire Wire Line
+	7050 1650 7050 1200
+Wire Wire Line
+	7300 1450 7050 1450
+Connection ~ 7050 1450
+Wire Wire Line
+	7300 1550 7050 1550
+Connection ~ 7050 1550
+Wire Wire Line
+	7300 5250 7100 5250
+Wire Wire Line
+	7100 5250 7100 5950
+Wire Wire Line
+	7300 5350 7100 5350
+Connection ~ 7100 5350
+Wire Wire Line
+	7300 5450 7100 5450
+Connection ~ 7100 5450
+Wire Wire Line
+	7300 5550 7100 5550
+Connection ~ 7100 5550
+Wire Wire Line
+	7300 5650 7100 5650
+Connection ~ 7100 5650
+Wire Wire Line
+	7300 5750 7100 5750
+Connection ~ 7100 5750
+$Comp
+L EdisonConnector U2
+U 1 1 57599238
+P 8500 3550
+F 0 "U2" H 7650 5800 60  0000 C CNN
+F 1 "EdisonConnector" H 8350 1150 60  0000 C CNN
+F 2 "mogar_modules_new:DF40C-70DP-0.4V(51)" H 8500 3950 60  0001 C CNN
+F 3 "" H 8500 3950 60  0000 C CNN
+	1    8500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1850 6600 1850
+Wire Wire Line
+	6600 1550 6600 1950
+Wire Wire Line
+	6600 1950 7300 1950
+Connection ~ 6600 1850
+$Comp
+L GND #PWR8
+U 1 1 57599242
+P 7100 5950
+F 0 "#PWR8" H 7100 5700 50  0001 C CNN
+F 1 "GND" H 7100 5800 50  0000 C CNN
+F 2 "" H 7100 5950 60  0000 C CNN
+F 3 "" H 7100 5950 60  0000 C CNN
+	1    7100 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1450 10150 1450
+Wire Wire Line
+	10150 1550 9700 1550
+Wire Wire Line
+	9700 1650 10150 1650
+Wire Wire Line
+	10150 1950 9700 1950
+Wire Wire Line
+	9700 2050 10150 2050
+Wire Wire Line
+	10150 2150 9700 2150
+Wire Wire Line
+	9700 2250 10150 2250
+Wire Wire Line
+	10150 2350 9700 2350
+Wire Wire Line
+	9700 2450 10150 2450
+Wire Wire Line
+	10150 2550 9700 2550
+Wire Wire Line
+	9700 2650 10150 2650
+Wire Wire Line
+	10150 2950 9700 2950
+Wire Wire Line
+	10150 3050 9700 3050
+Wire Wire Line
+	9700 3150 10150 3150
+Wire Wire Line
+	10150 3250 9700 3250
+Wire Wire Line
+	9700 3550 10150 3550
+Wire Wire Line
+	10150 3650 9700 3650
+Wire Wire Line
+	9700 3750 10150 3750
+Wire Wire Line
+	10150 3850 9700 3850
+Wire Wire Line
+	9700 3950 10150 3950
+Wire Wire Line
+	9700 5350 10150 5350
+Wire Wire Line
+	10150 5250 9700 5250
+Wire Wire Line
+	9700 4950 10150 4950
+Wire Wire Line
+	10150 4850 9700 4850
+Wire Wire Line
+	9700 4750 10150 4750
+Wire Wire Line
+	10150 4650 9700 4650
+Wire Wire Line
+	9700 4350 10150 4350
+Wire Wire Line
+	10150 4250 9700 4250
+Wire Wire Line
+	10150 5650 9700 5650
+Wire Wire Line
+	9700 5750 10150 5750
+Wire Wire Line
+	6850 4750 7300 4750
+Wire Wire Line
+	7300 4850 6850 4850
+Wire Wire Line
+	6850 4950 7300 4950
+Wire Wire Line
+	7300 5050 6850 5050
+Wire Wire Line
+	6850 3750 7300 3750
+Wire Wire Line
+	7300 3850 6850 3850
+Wire Wire Line
+	6850 3950 7300 3950
+Wire Wire Line
+	7300 4050 6850 4050
+Wire Wire Line
+	6850 4150 7300 4150
+Wire Wire Line
+	7300 4250 6850 4250
+Wire Wire Line
+	6850 4350 7300 4350
+Wire Wire Line
+	7300 4450 6850 4450
+Wire Wire Line
+	6850 4550 7300 4550
+Wire Wire Line
+	6850 3050 7300 3050
+Wire Wire Line
+	7300 3150 6850 3150
+Wire Wire Line
+	6850 3250 7300 3250
+Wire Wire Line
+	7300 3350 6850 3350
+Wire Wire Line
+	6850 3450 7300 3450
+Wire Wire Line
+	7300 3550 6850 3550
+Wire Wire Line
+	7300 2350 6850 2350
+Wire Wire Line
+	7300 2550 6850 2550
+Wire Wire Line
+	6850 2650 7300 2650
+Wire Wire Line
+	7300 2850 6850 2850
+$Comp
+L +1V8 #PWR5
+U 1 1 575992B2
+P 6350 2050
+F 0 "#PWR5" H 6350 1900 50  0001 C CNN
+F 1 "+1V8" H 6350 2190 50  0000 C CNN
+F 2 "" H 6350 2050 60  0000 C CNN
+F 3 "" H 6350 2050 60  0000 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2050 6350 2150
+Wire Wire Line
+	6350 2150 7300 2150
+Wire Wire Line
+	6950 1750 7300 1750
+$Comp
+L +3.3V #PWR6
+U 1 1 575992BC
+P 6600 1550
+F 0 "#PWR6" H 6600 1400 50  0001 C CNN
+F 1 "+3.3V" H 6600 1690 50  0000 C CNN
+F 2 "" H 6600 1550 60  0000 C CNN
+F 3 "" H 6600 1550 60  0000 C CNN
+	1    6600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR7
+U 1 1 575992C2
+P 7050 1200
+F 0 "#PWR7" H 7050 1050 50  0001 C CNN
+F 1 "VCC" H 7050 1350 50  0000 C CNN
+F 2 "" H 7050 1200 60  0000 C CNN
+F 3 "" H 7050 1200 60  0000 C CNN
+	1    7050 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 1750 0    60   BiDi ~ 0
+DCIN
+Text GLabel 1350 2350 0    60   BiDi ~ 0
+V_VAT_BKUP
+Text GLabel 1350 2550 0    60   BiDi ~ 0
+PWRBTN#
+Text GLabel 1350 2650 0    60   BiDi ~ 0
+RESET_OUT#
+Text GLabel 1350 2850 0    60   BiDi ~ 0
+MSIC_SLP_CLK
+Text GLabel 1350 3050 0    60   BiDi ~ 0
+USB_ID
+Text GLabel 1350 3150 0    60   BiDi ~ 0
+USB_DP
+Text GLabel 1350 3250 0    60   BiDi ~ 0
+USB_DN
+Text GLabel 1350 3350 0    60   BiDi ~ 0
+USB_VBUS
+Text GLabel 1350 3450 0    60   BiDi ~ 0
+FAULT
+Text GLabel 1350 3550 0    60   BiDi ~ 0
+PSW
+Text GLabel 1350 3750 0    60   BiDi ~ 0
+GP44
+Text GLabel 1350 3850 0    60   BiDi ~ 0
+GP165
+Text GLabel 1350 3950 0    60   BiDi ~ 0
+GP45
+Text GLabel 1350 4050 0    60   BiDi ~ 0
+GP46
+Text GLabel 1350 4150 0    60   BiDi ~ 0
+GP47
+Text GLabel 1350 4250 0    60   BiDi ~ 0
+GP48
+Text GLabel 1350 4350 0    60   BiDi ~ 0
+GP49
+Text GLabel 1350 4450 0    60   BiDi ~ 0
+GP15
+Text GLabel 1350 4550 0    60   BiDi ~ 0
+GP14
+Text GLabel 1350 4750 0    60   BiDi ~ 0
+GP12_PWM0
+Text GLabel 1350 4850 0    60   BiDi ~ 0
+GP13_PWM1
+Text GLabel 1350 4950 0    60   BiDi ~ 0
+GP182_PWM2
+Text GLabel 1350 5050 0    60   BiDi ~ 0
+GP183_PWM3
+Text GLabel 6850 2350 0    60   BiDi ~ 0
+V_VAT_BKUP
+Text GLabel 6850 2550 0    60   BiDi ~ 0
+PWRBTN#
+Text GLabel 6850 2650 0    60   BiDi ~ 0
+RESET_OUT#
+Text GLabel 6850 2850 0    60   BiDi ~ 0
+MSIC_SLP_CLK
+Text GLabel 6850 3050 0    60   BiDi ~ 0
+USB_ID
+Text GLabel 6850 3150 0    60   BiDi ~ 0
+USB_DP
+Text GLabel 6850 3250 0    60   BiDi ~ 0
+USB_DN
+Text GLabel 6850 3350 0    60   BiDi ~ 0
+USB_VBUS
+Text GLabel 6850 3450 0    60   BiDi ~ 0
+FAULT
+Text GLabel 6850 3550 0    60   BiDi ~ 0
+PSW
+Text GLabel 6850 3750 0    60   BiDi ~ 0
+GP44
+Text GLabel 6850 3850 0    60   BiDi ~ 0
+GP165
+Text GLabel 6850 3950 0    60   BiDi ~ 0
+GP45
+Text GLabel 6850 4050 0    60   BiDi ~ 0
+GP46
+Text GLabel 6850 4150 0    60   BiDi ~ 0
+GP47
+Text GLabel 6850 4250 0    60   BiDi ~ 0
+GP48
+Text GLabel 6850 4350 0    60   BiDi ~ 0
+GP49
+Text GLabel 6850 4450 0    60   BiDi ~ 0
+GP15
+Text GLabel 6850 4550 0    60   BiDi ~ 0
+GP14
+Text GLabel 6850 4750 0    60   BiDi ~ 0
+GP12_PWM0
+Text GLabel 6850 4850 0    60   BiDi ~ 0
+GP13_PWM1
+Text GLabel 6850 4950 0    60   BiDi ~ 0
+GP182_PWM2
+Text GLabel 6850 5050 0    60   BiDi ~ 0
+GP183_PWM3
+Text GLabel 6950 1750 0    60   BiDi ~ 0
+DCIN
+Text GLabel 4650 5750 2    60   BiDi ~ 0
+GP19_I2C_1_SCL
+Text GLabel 4650 5650 2    60   BiDi ~ 0
+GP20_I2C_1_SDA
+Text GLabel 4650 5350 2    60   BiDi ~ 0
+GP27_I2C_6_SCL
+Text GLabel 4650 5250 2    60   BiDi ~ 0
+GP28_I2C_6_SDA
+Text GLabel 4650 4950 2    60   BiDi ~ 0
+GP42_I2S_2_RXD
+Text GLabel 4650 4850 2    60   BiDi ~ 0
+GP40_I2S_2_CLK
+Text GLabel 4650 4750 2    60   BiDi ~ 0
+GP41_I2S_2_FS
+Text GLabel 4650 4650 2    60   BiDi ~ 0
+GP43_I2S_2_TXD
+Text GLabel 4650 4350 2    60   BiDi ~ 0
+GP134_UART_2_RX
+Text GLabel 4650 4250 2    60   BiDi ~ 0
+GP135_UART_2_TX
+Text GLabel 4650 3950 2    60   BiDi ~ 0
+GP111_SPI_2_FS1
+Text GLabel 4650 3850 2    60   BiDi ~ 0
+GP110_SPI_2_FS0
+Text GLabel 4650 3750 2    60   BiDi ~ 0
+GP109_SPI_2_CLK
+Text GLabel 4650 3650 2    60   BiDi ~ 0
+GP115_SPI_2_TXD
+Text GLabel 4650 3550 2    60   BiDi ~ 0
+GP114_SPI_2_RXD
+Text GLabel 4650 3250 2    60   BiDi ~ 0
+GP131_UART_1_TX
+Text GLabel 4650 3150 2    60   BiDi ~ 0
+GP130_UART_1_RX
+Text GLabel 4650 3050 2    60   BiDi ~ 0
+GP129_UART_1_RTS
+Text GLabel 4650 2950 2    60   BiDi ~ 0
+GP128_UART_1_CTS
+Text GLabel 4650 2650 2    60   BiDi ~ 0
+GP77_SD_0_CD#
+Text GLabel 4650 2550 2    60   BiDi ~ 0
+GP78_SD_0_CLK
+Text GLabel 4650 2450 2    60   BiDi ~ 0
+GP79_SD_0_CMD
+Text GLabel 4650 2350 2    60   BiDi ~ 0
+GP80_SD_0_DAT0
+Text GLabel 4650 2250 2    60   BiDi ~ 0
+GP81_SD_0_DAT1
+Text GLabel 4650 2150 2    60   BiDi ~ 0
+GP82_SD_0_DAT2
+Text GLabel 4650 2050 2    60   BiDi ~ 0
+GP83_SD_0_DAT3
+Text GLabel 4650 1950 2    60   BiDi ~ 0
+GP84_SD_CLK_FB
+Text GLabel 4650 1650 2    60   BiDi ~ 0
+OSC_CLK_OUT_0
+Text GLabel 4650 1550 2    60   BiDi ~ 0
+RCVR_MODE
+Text GLabel 4650 1450 2    60   BiDi ~ 0
+FW_RCVR
+Text GLabel 10150 5750 2    60   BiDi ~ 0
+GP19_I2C_1_SCL
+Text GLabel 10150 5650 2    60   BiDi ~ 0
+GP20_I2C_1_SDA
+Text GLabel 10150 5350 2    60   BiDi ~ 0
+GP27_I2C_6_SCL
+Text GLabel 10150 5250 2    60   BiDi ~ 0
+GP28_I2C_6_SDA
+Text GLabel 10150 4950 2    60   BiDi ~ 0
+GP42_I2S_2_RXD
+Text GLabel 10150 4850 2    60   BiDi ~ 0
+GP40_I2S_2_CLK
+Text GLabel 10150 4750 2    60   BiDi ~ 0
+GP41_I2S_2_FS
+Text GLabel 10150 4650 2    60   BiDi ~ 0
+GP43_I2S_2_TXD
+Text GLabel 10150 4350 2    60   BiDi ~ 0
+GP134_UART_2_RX
+Text GLabel 10150 4250 2    60   BiDi ~ 0
+GP135_UART_2_TX
+Text GLabel 10150 3950 2    60   BiDi ~ 0
+GP111_SPI_2_FS1
+Text GLabel 10150 3850 2    60   BiDi ~ 0
+GP110_SPI_2_FS0
+Text GLabel 10150 3750 2    60   BiDi ~ 0
+GP109_SPI_2_CLK
+Text GLabel 10150 3650 2    60   BiDi ~ 0
+GP115_SPI_2_TXD
+Text GLabel 10150 3550 2    60   BiDi ~ 0
+GP114_SPI_2_RXD
+Text GLabel 10150 3250 2    60   BiDi ~ 0
+GP131_UART_1_TX
+Text GLabel 10150 3150 2    60   BiDi ~ 0
+GP130_UART_1_RX
+Text GLabel 10150 3050 2    60   BiDi ~ 0
+GP129_UART_1_RTS
+Text GLabel 10150 2950 2    60   BiDi ~ 0
+GP128_UART_1_CTS
+Text GLabel 10150 2650 2    60   BiDi ~ 0
+GP77_SD_0_CD#
+Text GLabel 10150 2550 2    60   BiDi ~ 0
+GP78_SD_0_CLK
+Text GLabel 10150 2450 2    60   BiDi ~ 0
+GP79_SD_0_CMD
+Text GLabel 10150 2350 2    60   BiDi ~ 0
+GP80_SD_0_DAT0
+Text GLabel 10150 2250 2    60   BiDi ~ 0
+GP81_SD_0_DAT1
+Text GLabel 10150 2150 2    60   BiDi ~ 0
+GP82_SD_0_DAT2
+Text GLabel 10150 2050 2    60   BiDi ~ 0
+GP83_SD_0_DAT3
+Text GLabel 10150 1950 2    60   BiDi ~ 0
+GP84_SD_CLK_FB
+Text GLabel 10150 1650 2    60   BiDi ~ 0
+OSC_CLK_OUT_0
+Text GLabel 10150 1550 2    60   BiDi ~ 0
+RCVR_MODE
+Text GLabel 10150 1450 2    60   BiDi ~ 0
+FW_RCVR
+$Comp
+L CONN_01X01 MH1
+U 1 1 57647939
+P 950 7350
+F 0 "MH1" H 950 7450 50  0000 C CNN
+F 1 "CONN_01X01" V 1050 7350 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 950 7350 60  0001 C CNN
+F 3 "" H 950 7350 60  0000 C CNN
+	1    950  7350
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 950  7550
+$Comp
+L CONN_01X01 MH2
+U 1 1 57647A8A
+P 1500 7350
+F 0 "MH2" H 1500 7450 50  0000 C CNN
+F 1 "CONN_01X01" V 1600 7350 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 1500 7350 60  0001 C CNN
+F 3 "" H 1500 7350 60  0000 C CNN
+	1    1500 7350
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1500 7550
+$EndSCHEMATC
